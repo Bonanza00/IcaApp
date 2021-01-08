@@ -1,0 +1,25 @@
+{
+  "name": "ica-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "path": "^0.12.7",
+    "puppeteer": "^5.5.0",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
